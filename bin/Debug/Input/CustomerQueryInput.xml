@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xml>
+  <requestId>1</requestId>
+  <srcSystem>safebarcode</srcSystem>
+  <methodName>customerQuery</methodName>
+  <customerNumber>*01.01</customerNumber>
+  <status>1</status>
+</xml>

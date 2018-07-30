@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xml>
+  <list>
+    <!--<row>
+      <requestId>dff0fdb7-54b7-48f1-bc3d-0201d38d6869</requestId>
+      <srcSystem>safebarcode</srcSystem>
+      <methodName>postRequisitionQuery</methodName>
+      <saleOrgUnit_number>01.10</saleOrgUnit_number>
+      <storageOrgUnit_number>01.10</storageOrgUnit_number>
+      <bizDate_from>2015-07-09</bizDate_from>
+      <bizDate_to>2018-07-09</bizDate_to>
+    </row>
+    <row>
+      <requestId>991739b4-e660-4894-8b32-856ad3d3a89e</requestId>
+      <srcSystem>safebarcode</srcSystem>
+      <methodName>postRequisitionQuery</methodName>
+      <saleOrgUnit_number>01.10</saleOrgUnit_number>
+      <storageOrgUnit_number>01.26</storageOrgUnit_number>
+      <bizDate_from>2015-07-09</bizDate_from>
+      <bizDate_to>2018-07-09</bizDate_to>
+    </row>
+    <row>
+      <requestId>8d88f8b7-aa9c-4eff-972f-a3a928027b5f</requestId>
+      <srcSystem>safebarcode</srcSystem>
+      <methodName>postRequisitionQuery</methodName>
+      <saleOrgUnit_number>01.10</saleOrgUnit_number>
+      <storageOrgUnit_number>01.26.001.04</storageOrgUnit_number>
+      <bizDate_from>2015-07-09</bizDate_from>
+      <bizDate_to>2018-07-09</bizDate_to>
+    </row>
+    <row>
+      <requestId>a8ef7b41-6d84-451c-a784-2cc37597edd2</requestId>
+      <srcSystem>safebarcode</srcSystem>
+      <methodName>postRequisitionQuery</methodName>
+      <saleOrgUnit_number>01.10</saleOrgUnit_number>
+      <storageOrgUnit_number>01.26.17</storageOrgUnit_number>
+      <bizDate_from>2015-07-09</bizDate_from>
+      <bizDate_to>2018-07-09</bizDate_to>
+    </row>-->
+  </list>
+</xml>

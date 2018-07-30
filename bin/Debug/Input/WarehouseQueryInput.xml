@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<xml>
+<requestId>1</requestId>
+<srcSystem>safebarcode</srcSystem>
+<methodName>warehouseQuery</methodName>
+<warehouseNumber>01.001</warehouseNumber>
+<status>1</status>
+</xml>

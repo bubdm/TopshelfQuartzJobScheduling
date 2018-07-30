@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xml>
+  <requestId>1</requestId>
+  <srcSystem>safebarcode</srcSystem>
+  <methodName>materialQuery</methodName>
+  <materialNumber>03.04.01.002.0003</materialNumber>
+  <status>1</status>
+</xml>

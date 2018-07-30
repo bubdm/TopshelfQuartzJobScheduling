@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xml>
+  <requestId>1</requestId>
+  <srcSystem>safebarcode</srcSystem>
+  <methodName>costCenterQuery</methodName>
+  <costCenterNumber>01.10.00</costCenterNumber>
+  <status>0</status>
+</xml>

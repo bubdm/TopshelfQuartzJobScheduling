@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xml>
+  <list>
+    <!--<row>
+      <requestId>2125ee5f-9076-4fa0-b352-a6c6a1ee6a34</requestId>
+      <srcSystem>safebarcode</srcSystem>
+      <methodName>purOrderQuery</methodName>
+      <purchaseOrgUnit_number>01.10</purchaseOrgUnit_number>
+      <bizDate_from>2014-07-09</bizDate_from>
+      <bizDate_to>2018-07-09</bizDate_to>
+    </row>
+    <row>
+      <requestId>53a53c3a-e40f-42ee-bc5f-d9606da89343</requestId>
+      <srcSystem>safebarcode</srcSystem>
+      <methodName>purOrderQuery</methodName>
+      <purchaseOrgUnit_number>01.26</purchaseOrgUnit_number>
+      <bizDate_from>2014-07-09</bizDate_from>
+      <bizDate_to>2018-07-09</bizDate_to>
+    </row>
+    <row>
+      <requestId>1b1c73f2-c272-4192-9957-0b7ec176f94b</requestId>
+      <srcSystem>safebarcode</srcSystem>
+      <methodName>purOrderQuery</methodName>
+      <purchaseOrgUnit_number>01.26.001.04</purchaseOrgUnit_number>
+      <bizDate_from>2014-07-09</bizDate_from>
+      <bizDate_to>2018-07-09</bizDate_to>
+    </row>
+    <row>
+      <requestId>f14b39ea-23a7-496a-aeb9-b6d5ec9da1c7</requestId>
+      <srcSystem>safebarcode</srcSystem>
+      <methodName>purOrderQuery</methodName>
+      <purchaseOrgUnit_number>01.26.17</purchaseOrgUnit_number>
+      <bizDate_from>2014-07-09</bizDate_from>
+      <bizDate_to>2018-07-09</bizDate_to>
+    </row>-->
+  </list>
+</xml>

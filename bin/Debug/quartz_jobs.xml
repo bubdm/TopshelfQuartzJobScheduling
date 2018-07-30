@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file contains job definitions in schema version 2.0 format -->
+<job-scheduling-data xmlns="http://quartznet.sourceforge.net/JobSchedulingData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+
+  <processing-directives>
+    <overwrite-existing-data>true</overwrite-existing-data>
+  </processing-directives>
+
+  <schedule>
+
+    <job>
+      <name>MaterialQueryJob</name>
+      <group>MaterialQueryJob</group>
+      <description>MaterialQueryJob</description>
+      <job-type>EasErpQuerySys.JobScheduling.Jobs.MaterialQueryJob,EasErpQuerySys.JobScheduling</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>MaterialQueryJobTrigger</name>
+        <group>MaterialQueryJob</group>
+        <job-name>MaterialQueryJob</job-name>
+        <job-group>MaterialQueryJob</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 0 1 * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <job>
+      <name>CostCenterQueryJob</name>
+      <group>CostCenterQueryJob</group>
+      <description>CostCenterQueryJob</description>
+      <job-type>EasErpQuerySys.JobScheduling.Jobs.CostCenterQueryJob,EasErpQuerySys.JobScheduling</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>CostCenterQueryJobTrigger</name>
+        <group>CostCenterQueryJob</group>
+        <job-name>CostCenterQueryJob</job-name>
+        <job-group>CostCenterQueryJob</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 5 1 * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <job>
+      <name>CustomerQueryJob</name>
+      <group>CustomerQueryJob</group>
+      <description>CustomerQueryJob</description>
+      <job-type>EasErpQuerySys.JobScheduling.Jobs.CustomerQueryJob,EasErpQuerySys.JobScheduling</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>CustomerQueryJobTrigger</name>
+        <group>CustomerQueryJob</group>
+        <job-name>CustomerQueryJob</job-name>
+        <job-group>CustomerQueryJob</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 10 1 * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <job>
+      <name>SupplierQueryJob</name>
+      <group>SupplierQueryJob</group>
+      <description>SupplierQueryJob</description>
+      <job-type>EasErpQuerySys.JobScheduling.Jobs.SupplierQueryJob,EasErpQuerySys.JobScheduling</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>SupplierQueryJobTrigger</name>
+        <group>SupplierQueryJob</group>
+        <job-name>SupplierQueryJob</job-name>
+        <job-group>SupplierQueryJob</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 15 1 * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <job>
+      <name>WarehouseQueryJob</name>
+      <group>WarehouseQueryJob</group>
+      <description>WarehouseQueryJob</description>
+      <job-type>EasErpQuerySys.JobScheduling.Jobs.WarehouseQueryJob,EasErpQuerySys.JobScheduling</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>WarehouseQueryJobTrigger</name>
+        <group>WarehouseQueryJob</group>
+        <job-name>WarehouseQueryJob</job-name>
+        <job-group>WarehouseQueryJob</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 20 1 * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <job>
+      <name>PostRequisitionQueryJob</name>
+      <group>PostRequisitionQueryJob</group>
+      <description>PostRequisitionQueryJob</description>
+      <job-type>EasErpQuerySys.JobScheduling.Jobs.PostRequisitionQueryJob,EasErpQuerySys.JobScheduling</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>PostRequisitionQueryJobTrigger</name>
+        <group>PostRequisitionQueryJob</group>
+        <job-name>PostRequisitionQueryJob</job-name>
+        <job-group>PostRequisitionQueryJob</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 0 2 * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <job>
+      <name>PurchaseOrderQueryJob</name>
+      <group>PurchaseOrderQueryJob</group>
+      <description>PurchaseOrderQueryJob</description>
+      <job-type>EasErpQuerySys.JobScheduling.Jobs.PurchaseOrderQueryJob,EasErpQuerySys.JobScheduling</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>PurchaseOrderQueryJobTrigger</name>
+        <group>PurchaseOrderQueryJob</group>
+        <job-name>PurchaseOrderQueryJob</job-name>
+        <job-group>PurchaseOrderQueryJob</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 0 2 * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+  </schedule>
+</job-scheduling-data>
